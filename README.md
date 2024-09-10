@@ -1,6 +1,17 @@
-# time-keeper-releases
+## 1.9.0
 
-1.8.0
+- feature: **Open last log** - directly open the log of the last working day
+- feature: Confirm reset configuration
+- feature: **Show pause** 
+    - show / hide pause entries
+    - same restrictions as for show booked
+- feature: **Book mode** - sets view mode to group, hides booked & pause entries
+- refactor: restructered **View** Menu
+    - **Book mode**
+    - **View mode** - single toggle instead of two
+    - **Show** - Booked & Pause as sub menu
+
+## 1.8.0
 
 - feature: open logs
     - in the toolbar section "Open" you can now open older logs
@@ -10,20 +21,20 @@
 - feature: added regex support for buzzwords
 - feature: booked entries can now be unbooked if you execute the book action again
 
-1.7.1
+## 1.7.1
 
 - feature: added support to preset 0 min time bookings
 
-1.7.0
+## 1.7.0
 
 - feature: preset booking date
     - if you add the property "date" to your configurations quickEntryParams the date of the entry will be presetted within the quick entry url
 
-1.6.1
+## 1.6.1
 
 - fix: edit entries with booked hidden works now
 
-1.6.0
+## 1.6.0
 
 - fix: edit now scrolls properly if the edit component is not fully displayed
 - feature: delete entries
@@ -48,16 +59,16 @@
     - by default adito ticketcodes (7 digit number) will be replaced: ["\\d{7}", ""]
 - fix: grouping is now case insensitive
 
-1.5.2
+## 1.5.2
 
 - fix: time does not add up on a new entry
 
-1.5.1
+## 1.5.1
 
 - fix: split with     -= 30min crushes the time / booked values
 - fix: merge with last doesn't show the wrong time anymore
 
-1.5.0
+## 1.5.0
 
 - feature: edit entries
     - added a contextmenu to edit entries, it contains 4 actions:
@@ -73,14 +84,14 @@
 - fix: removed broken about view
 - feature: changed background color, font color & Button design for better optics
 
-1.4.0
+## 1.4.0
 
 - feature: use ticket quick entry
     - a new configuration value "useQuickEntry" is added (default true)
     - when true a ticket code will no longer be opened via the indexsearch but instead it will directly open the ticket time entry and preset the ticket, time and description
     - you can now add ticketcodes as buzzwords instead of ticket URLs - in this case the ticket time quick entry will be used as well
 
-1.3.0
+## 1.3.0
 
 - feature: select entries
     - mark a entry with click / ctrl + click / shift + click / ctrl + a
@@ -96,7 +107,7 @@
     - set default viewmode in configuration
 - feature: configure information box
 
-1.2.0
+## 1.2.0
 
 - feature: reorganised menu bar
 - feature: moved log button to menu bar
@@ -105,12 +116,12 @@
 - feature: added buzzword logic for configuration
 - fix: set folders for build
 
-1.1.1
+## 1.1.1
 
 - fix: pause and restart can be choosen by history
 - fix: running time resets at 1h
 
-1.1.0
+## 1.1.0
 
 - fix: wrong displayed time at 01:00
 - fix: \n after each entry in log
@@ -119,6 +130,6 @@
 - feature: move through history with arrow up & down keys
 - feature: running current and full times
 
-1.0.0:
+## 1.0.0:
 
 - initial release
