@@ -2,6 +2,10 @@
 
 - feature: **Open last log** - directly open the log of the last working day
 - feature: Confirm reset configuration
+- feature: Reset configuration stores backup
+- feature: **Automated Update check**
+    - TimeKeeper will check if a new Verison is available on startup
+    - new Versions can be downloaded directly within TimeKeeper
 - feature: **Show pause** 
     - show / hide pause entries
     - same restrictions as for show booked
