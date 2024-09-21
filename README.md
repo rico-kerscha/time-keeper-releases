@@ -1,3 +1,7 @@
+## 1.9.1
+
+- fix: selection in group view
+
 ## 1.9.0
 
 - feature: **Open last log** - directly open the log of the last working day
