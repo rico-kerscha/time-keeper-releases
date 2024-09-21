@@ -1,3 +1,7 @@
+## 1.9.2
+
+- fix: adjust window size & set minimum window size
+
 ## 1.9.1
 
 - fix: selection in group view
