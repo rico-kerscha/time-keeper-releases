@@ -6,6 +6,9 @@
 - feature: treat restarts as pause
     - added a new configuration option **restartEqualsPause** (default: true)
     - if true a pause entry will be written after a restart
+- feature: auto update
+    - for future releases TimeKeeper will show a update button if a new Version is available
+    - this update will download the new TimeKeeper and replace the existing one
 
 ## 1.9.2
 
