@@ -1,3 +1,12 @@
+## 1.10.0
+
+- feature: trim input values
+    - added a new configuration option **trimInput** (default: true)
+    - if true all new input values will be trimmed
+- feature: treat restarts as pause
+    - added a new configuration option **restartEqualsPause** (default: true)
+    - if true a pause entry will be written after a restart
+
 ## 1.9.2
 
 - fix: adjust window size & set minimum window size
